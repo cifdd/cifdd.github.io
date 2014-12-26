@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en"><!--
+  	 
+  	88888888888 d8b                        888 d8b                888888   d8888b  
+  	    888     Y8P                        888 Y8P                   88b d88P  Y88b 
+  	    888                                888                       888 Y88b
+  	    888     888 88888b d88b     d88b   888 888 88888b     d88b   888   Y888b
+  	    888     888 888  888  88b d8P  Y8b 888 888 888  88b d8P  Y8b 888      Y88b
+  	    888     888 888  888  888 88888888 888 888 888  888 88888888 888        888 
+  	    888     888 888  888  888 Y8b      888 888 888  888 Y8b      88P Y88b  d88P 
+  	    888     888 888  888  888   Y8888  888 888 888  888   Y8888  888   Y8888P
+  	                                                                d88P            
+  	                                                              d88P             
+  	                                                            888P              
+  	 -->
+  <head>
+    <title>Henry Cui I Fang Dongdong</title>
+    <meta charset="utf-8">
+    <meta name="description" content="TimelineJS example">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+    <style>
+      html, body {
+       height:100%;
+       padding: 0px;
+       margin: 0px;
+      }
+    </style>
+    <!-- HTML5 shim, for IE6-8 support of HTML elements--><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+      <!-- BEGIN Timeline Embed -->
+      <div id="timeline-embed"></div>
+      
+      <script type="text/javascript">
+        
+        var timeline_config = {
+         width: "100%",
+         height: "100%",
+         source: {
+             "timeline":
+             {
+                 "headline": "这是两个二货的故事",
+                 "type": "default",
+                 "text": "<p>故事很简单、很普通，希望他们一直把这个故事写下去，cifdd站点永不关闭。</p>",
+                 "asset": {
+                     "media": "./img/my/1.jpg",
+                     "caption": "About us"
+                 },
+                 "date": [
+                     {
+                         "startDate": "2012,8,19",
+                         "endDate": "2012,8,20",
+                         "headline": "一个去厦门，一个在上海",
+                         "text": "<p>这一天，IT男井先生只身漂泊到福建，福建的房二货跟随父母留在上海。</p>",
+                         "tag": "就像一条平行线永远不会有交集",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/2.jpg",
+                             "thumbnail": "./img/my/2.jpg",
+                             "caption": "厦门、上海，有一天会有交集吗"
+                         }
+                     },
+                     {
+                         "startDate": "2014,6,28",
+                         "endDate": "2014,6,28",
+                         "headline": "他回到了昆山",
+                         "text": "<p>在厦门两年的漂泊，让井先生身心疲惫，这一天他打道回府，回到了他热爱的小城昆山。</p>",
+                         "tag": "昆山、上海距离越来越近",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/3.jpg",
+                             "thumbnail": "./img/my/3.jpg",
+                             "caption": "小城昆山"
+                         }
+                     },
+                     {
+                         "startDate": "2014,7,21",
+                         "endDate": "2014,7,21",
+                         "headline": "她加入了找钢网",
+                         "text": "<p>这一天，房二货不想继续做着无聊的工作，她加入了找钢网产品推广部。</p>",
+                         "tag": "钢铁与IT有了交集",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/4.jpg",
+                             "thumbnail": "./img/my/4.jpg",
+                             "caption": "房二货"
+                         }
+                     },
+                     {
+                         "startDate": "2014,7,29",
+                         "endDate": "2014,7,29",
+                         "headline": "他加入了找钢网",
+                         "text": "<p>这一天，井先生加入找钢网，想做他喜欢的互联网。</p>",
+                         "tag": "他们就有了交集吗？",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/5.jpg",
+                             "thumbnail": "./img/my/5.jpg",
+                             "caption": "找钢网"
+                         }
+                     },
+                     {
+                         "startDate": "2014,8,1",
+                         "endDate": "2014,8,1",
+                         "headline": "他却离开了找钢网",
+                         "text": "<p>井先生三天来觉得在这里做的不是自己想做的互联网，选择了离开，去了另外一家公司。</p>",
+                         "tag": "原来只是交叉线，短暂的汇集后，越离越远",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/6.jpg",
+                             "thumbnail": "./img/my/6.jpg",
+                             "caption": "寂寞"
+                         }
+                     },
+                     {
+                         "startDate": "2014,8,19",
+                         "endDate": "2014,8,19",
+                         "headline": "冥冥之中的蓦然回首",
+                         "text": "<p>因为离职手续时Leader的苦心劝说，冥冥之中，井先生决定继续回来。这一天井先生第一次见到房二货，被她的笑容深深打动，3年来再次找到怦然心动的感觉。</p>",
+                         "tag": "有一种直线，它会拐弯",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/7.jpg",
+                             "thumbnail": "./img/my/7.jpg",
+                             "caption": "归来"
+                         }
+                     },
+                     {
+                         "startDate": "2014,9,5",
+                         "endDate": "2014,9,5",
+                         "headline": "第一次聚餐",
+                         "text": "<p>找中板聚餐，井先生、房二货第一次近距离坐在一起。那天井先生用他的通关绝技，爆嗨全场。</p>",
+                         "tag": "有一种人就是喜欢在他喜欢的人面前表现",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/8.jpg",
+                             "thumbnail": "./img/my/8.jpg",
+                             "caption": "下面笑得最傻的那个就是井先生"
+                         }
+                     },
+                     {
+                         "startDate": "2014,9,16",
+                         "endDate": "2014,9,16",
+                         "headline": "她陪他过生日",
+                         "text": "<p>地点：泰风苑：</p><p>人物：两个二货 </p><p>事情：用锤子剪刀布过了个二货般的生日</p><p> 补充：这天他第一次牵了她的手，他第一次送她回家</p>",
+                         "tag": "有一种生日里没有蛋糕，只有开心的两个二货",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/9.jpg",
+                             "thumbnail": "./img/my/9.jpg",
+                             "caption": "Happy Birthday"
+                         }
+                     },
+                     {
+                         "startDate": "2014,9,18",
+                         "endDate": "2014,9,18",
+                         "headline": "是大大泡泡糖？",
+                         "text": "<p>井先生每天下班后送房二货回家，这天他们隔着大大泡泡糖亲了下。到底是亲的糖还是亲的人，傻傻分不清楚</p>",
+                         "tag": "是亲的糖还是亲的人，傻傻分不清楚",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/10.jpg",
+                             "thumbnail": "./img/my/10.jpg",
+                             "caption": "泡泡糖"
+                         }
+                     },
+                     {
+                         "startDate": "2014,9,20",
+                         "endDate": "2014,9,20",
+                         "headline": "小城昆山有你",
+                         "text": "<p>这一天，她跟着他一起回昆山，一起坐地铁，一起“冬小麦”、“KFC”，一起二到家。</p>",
+                         "tag": "",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/11.jpg",
+                             "thumbnail": "./img/my/11.jpg",
+                             "caption": "归家的旅程"
+                         }
+                     },
+                     {
+                         "startDate": "2014,9,29",
+                         "endDate": "2014,9,29",
+                         "headline": "一直这样下去",
+                         "text": "<p>他每天都送她回家，每天都做着二货的事情。这天只是风比较大，人更美，笑得更开心而已。希望这两个二货能一直走下去，不忘初心。</p>",
+                         "tag": "不忘初心",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/12.jpg",
+                             "thumbnail": "./img/my/12.jpg",
+                             "caption": "一个大风的夜晚"
+                         }
+                     },
+					 {
+                         "startDate": "2014,9,30",
+                         "endDate": "2014,9,30",
+                         "headline": "彼此的礼物",
+                         "text": "<p>一个希望能永久运行下去的二人故事站，一个胸牌的漫画（井先生被画得有点惨），简单、开心。</p>",
+                         "tag": "简单、开心",
+                         "classname": "optionaluniqueclassnamecanbeaddedhere",
+                         "asset": {
+                             "media": "./img/my/13.jpg",
+                             "thumbnail": "./img/my/13.jpg",
+                             "caption": "我们的礼物"
+                         }
+                     }
+
+                 ]
+                 
+             }
+         }
+        }
+      </script>
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+      <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
+      <!-- END Timeline Embed-->
+  </body>
+</html>
